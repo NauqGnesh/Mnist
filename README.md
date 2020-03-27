@@ -22,9 +22,9 @@ Play around with the hidden layer parameters, see if you can squeeze out more ac
 ```
 
 Manipulate index to see what the model got right or wrong. 
-eg: index = incorrects[900] 
 
-    index = corrects[5000]
+eg: index = incorrects[900] 
+eg: index = corrects[5000]
 ```
 index = incorrects[32]
 digit = X_test[index]
@@ -38,3 +38,6 @@ There's also a confusion matrix if you're familiar with it
 ![Confusion Matrix](ConfusionMatrix.png)
 
 
+Checkout training data of this model at https://app.wandb.ai/nauqgnesh/Mnist
+
+All code related to weights and biases have been commented out. If you would like to create your own project, add your wandb login and uncommented related code
