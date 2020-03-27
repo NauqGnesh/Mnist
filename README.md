@@ -1,9 +1,9 @@
-#Mnist
+# Mnist
 This model is an image classifier which classifies images of hand-written digits from 0-9 using Neural Network (Multilayer Perceptron)
-
 This model is trained with Mnist dataset and uses Keras for building the Neural Network
 
-#Required Libraries
+# Required Libraries
+
     1. keras
     2. numpy
     3. matplotlib
@@ -12,7 +12,7 @@ This model is trained with Mnist dataset and uses Keras for building the Neural 
     6. pytz
     7. wandb (optional)
     
-#Usage 
+# Usage 
 Play around with the hidden layer parameters, see if you can squeeze out more accuracy 
 ```
   model.add(Dense(num_classes, activation="relu"))        # Hidden layer
@@ -21,8 +21,8 @@ Play around with the hidden layer parameters, see if you can squeeze out more ac
 ```
 
 Manipulate index to see what the model got right or wrong. 
-
-eg: index = incorrects[900] or index = corrects[5000]
+eg: index = incorrects[900] 
+    index = corrects[5000]
 ```
 index = incorrects[32]
 digit = X_test[index]
