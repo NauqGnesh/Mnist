@@ -40,4 +40,4 @@ There's also a confusion matrix if you're familiar with it
 
 Checkout training data of this model at https://app.wandb.ai/nauqgnesh/Mnist
 
-All code related to weights and biases have been commented out. If you would like to create your own project, add your wandb login and uncommented related code
+All code related to weights and biases have been commented out. If you would like to create your own project, add your wandb login and uncomment related code
